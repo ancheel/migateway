@@ -26,13 +26,13 @@ const (
 func (c ClickType) String() string {
 	switch c {
 	case SingleClick:
-		return "single"
+		return "single click"
 	case DoubleClick:
-		return "double"
+		return "double click"
 	case LongPressClick:
-		return "longpress"
+		return "long press"
 	case LongReleaseClick:
-		return "longrelease"
+		return "long release"
 	}
 	return "none"
 }
